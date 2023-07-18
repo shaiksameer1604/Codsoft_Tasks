@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Landing Page</title>
+    <style>
+        /* Reset styles */
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        
+        /* Global styles */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+        
+        /* Header styles */
+        header {
+            background-color: #333;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        h1 {
+            color: #edecf1;
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+        
+        p {
+            color: #fff;
+            font-size: 18px;
+        }
+        
+        /* Navigation styles */
+        nav {
+            background-color: #555;
+            padding: 10px;
+            text-align: center;
+        }
+        
+        nav a { 
+            text-decoration: none;
+            color: #fff;
+            font-size: 16px;
+            margin: 0 10px;
+        }
+        
+        /* Hero section styles */
+        .hero {
+            background-image: url("https://www.betterup.com/hubfs/Google%20Drive%20Integration/Delivery%20URL%20-%20BetterUp%20-%20office%20politics%20%5BARTICLE%5D-2.jpeg");
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        
+        .hero h2 {
+            color: #172df1;
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+        
+        .hero p {
+            color: #042dbe;
+            font-size: 24px;
+        }
+        
+        /* About section styles */
+        .about {
+            padding: 50px 0;
+            text-align: center;
+        }
+        
+        .about h3 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        
+        .about p {
+            font-size: 18px;
+            color:#333
+        }
+        
+        /* Skills section styles */
+        .services {
+            background-color: #252424;
+            padding: 50px 0;
+            text-align: center;
+        }
+        
+        .services h3 {
+            font-size: 36px;
+            margin-bottom: 20px;
+            color:#edecf1
+        }
+        
+        .services ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        
+        .services li {
+            width: 150px;
+            padding: 10px;
+            margin: 10px;
+            background-color: #fff;
+            border-radius: 5px;
+        }
+        
+        /* Contact section styles */
+        .contact {
+            padding: 50px 0;
+            text-align: center;
+            background-image: url("https://www.shutterstock.com/image-illustration/red-retro-telephone-receiver-flying-260nw-1427759264.jpg");
+            background-size: cover;
+        }
+        
+        .contact h3 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        
+        .contact p {
+            font-size: 18px;
+            color: #333;
+        }
+        
+        .contact form {
+            max-width: 400px;
+            margin: 0 auto;
+            text-align: left;
+        }
+        
+        .contact input,
+        .contact textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        
+        .contact button {
+            padding: 10px 20px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+        
+        /* Footer styles */
+        footer {
+            background-color: #333;
+            padding: 20px;
+            text-align: center;
+            color: #fff;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Landing Page</h1>
+    </header>
+    
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </nav>
+    
+    <section class="hero">
+        <div>
+            <h2>Creative Digital Agency</h2>
+            <p>Our agency has been standard ever since 1989.</p>
+        </div>
+    </section>
+    
+    <section class="about">
+        <h3>About us</h3>
+        <p>Our 15-year passionate company has been dedicated to excellence since its inception. From humble beginnings, we have grown into a thriving enterprise, driven by our unwavering commitment to delivering exceptional products and services.
+            Throughout the years, our company has been fueled by a deep-rooted passion for innovation and customer satisfaction. We have always sought to push boundaries, constantly seeking new ways to improve and evolve. Our team of talented individuals, with their diverse skill sets and unwavering dedication, has been instrumental in propelling us to new heights.
+            At the heart of our success lies our unwavering commitment to quality. We firmly believe that every product we deliver should be a testament to our passion and expertise. We meticulously craft our offerings, paying attention to the finest details, and ensuring that they meet the highest standards of excellence.
+            Our company's success can be attributed to the trust and loyalty of our valued customers. Over the years, we have fostered strong relationships built on transparency, reliability, and a shared commitment to success. We view our customers as partners, and their satisfaction is paramount to everything we do.
+            Looking ahead, we remain as passionate and driven as ever. We recognize that the world is constantly changing, and we are ready to embrace new challenges and opportunities. With our unwavering passion, experienced team, and dedication to excellence, we are poised to continue our journey of success for many years to come.</p>
+    </section>
+    
+    <section class="services">
+        <h3>Our Services</h3>
+        <ul>
+            <li>USER EXPERIENCE</li>
+            <li>CREATIVE DESIGN</li>
+            <li>INDUSTRY READY</li>
+        </ul>
+    </section>
+    
+    <section class="contact">
+        <h3>Contact Us</h3>
+        <p>If you have any questions or would like to discuss a project, feel free to get in touch with us.</p>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+    
+    <footer>
+        &copy; Since 1989. All rights reserved.
+    </footer>
+</body>
+</html>
